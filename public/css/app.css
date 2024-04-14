@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid black;
+  padding: 15px 0;
+}
+.header__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.header__menu {
+  margin-left: auto;
+}
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.header__menu-link {
+  color: black;
+  text-decoration: none;
+}
+.header__button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  padding: 50px 0;
+}
+.content__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.content__message {
+  text-align: center;
+}
+.content__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+}
+.content__post {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.content__post-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: black;
+  text-decoration: none;
+}
+.content__post-desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content__post-datetime {
+  font-size: 14px;
+  color: rgb(81, 81, 81);
+}
+
+.post {
+  padding: 50px 0;
+}
+.post__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.post__body {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+.post__body-title {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.post__body-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.post__body-datetime {
+  font-size: 15px;
+  color: rgb(81, 81, 81);
+}
+.post__body-button {
+  border: 1px solid red;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.create {
+  padding: 50px 0;
+}
+.create__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.create__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 300px;
+}
+.create__form-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.create__form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.create__form-button {
+  margin-top: 40px;
+  margin-right: auto;
+  padding: 13px 25px;
+  background-color: #fff;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.create__form-error {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 12px;
+}/*# sourceMappingURL=app.css.map */
